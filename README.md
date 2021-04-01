@@ -1,2 +1,7 @@
-# Birthday-Card
- 🎉 Birthday Card for your loved ones
+# Birthday Card
+
+🎉 Birthday Card for your loved ones
+
+### Screenshot
+
+![Card Screenshot](./assets/HappyBirthdayScreenshot.png)
