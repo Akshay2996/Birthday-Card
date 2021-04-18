@@ -1,5 +1,5 @@
 // Snow Confetti
-let duration = 18 * 1000;
+let duration = 20 * 1000;
 let animationEnd = Date.now() + duration;
 let skew = 1;
 
