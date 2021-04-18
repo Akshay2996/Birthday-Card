@@ -14,13 +14,15 @@ body {
 }
 
 audio {
-  width: 200px;
+  width: 600px;
   outline: none;
   border-radius: 90px;
   transform: scale(1.05);
 }
 
 button {
+  width: clamp(20%, 50px, 50%);
+  height: clamp(20%, 50px, 50%);
   border-radius: 4px;
 }
 
