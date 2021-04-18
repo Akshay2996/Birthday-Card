@@ -1,3 +1,9 @@
+// Adding a Birthday Song
+(function song() {
+  const audio = new Audio("assets/BirthdaySong.mp3");
+  audio.play();
+})();
+
 // Snow Confetti
 let duration = 18 * 1000;
 let animationEnd = Date.now() + duration;
