@@ -10,24 +10,21 @@
   </head>
   <body>
     <div class="card">
-      <audio src="/assets/BirthdaySong.mp3" autoplay>
-        Browser doesn't support audio
-      </audio>
       <img src="./assets/birthday.svg" alt="birthday" class="birthday" />
       <div class="text">
         <h1>Happy Birthday!</h1>
         <h3 class="muted">Mahima (Motu) Didi</h3>
         <h4>Please take care of me 🤓 🛌</h4>
         <p class="side">- From Akshay</p>
+        <audio id="player" src="/assets/BirthdaySong.mp3"></audio>
+        <div>
+          <button onclick="document.getElementById('player').play()">🎶</button>
+          <button onclick="document.getElementById('player').pause()">
+            &#10074;&#10074;
+          </button>
+        </div>
       </div>
       <div class="space"></div>
-      <!-- <audio id="player" src="/assets/BirthdaySong.mp3"></audio>
-      <div>
-        <button onclick="document.getElementById('player').play()">Play</button>
-        <button onclick="document.getElementById('player').pause()">
-          Pause
-        </button>
-      </div> -->
     </div>
     <script defer src="index.js"></script>
   </body>
