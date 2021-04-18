@@ -1,71 +1,82 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
 * {
-	transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 body {
-	background: #009191;
-	display: grid;
-	place-items: center;
-	height: 100vh;
-	margin: 0;
-	font-family: "Open Sans", sans-serif;
+  background: #009191;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+audio {
+  width: 200px;
+  outline: none;
+  border-radius: 90px;
+  transform: scale(1.05);
+}
+
+button {
+  border-radius: 4px;
 }
 
 .card {
-	background: #fefefe;
-	border-radius: 4px;
-	height: 85vh;
-	width: 80vw;
-	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	padding: 1em;
-	overflow: hidden;
+  background: #fefefe;
+  border-radius: 4px;
+  height: 85vh;
+  width: 80vw;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  overflow: hidden;
 }
 
 @media only screen and (min-width: 1000px) {
-	.card {
-		flex-direction: row-reverse;
-	}
-	.card img.birthday {
-		width: 100%;
-		max-width: 50vw;
-		max-height: unset;
-	}
+  .card {
+    flex-direction: row-reverse;
+  }
+  .card img.birthday {
+    width: 100%;
+    max-width: 50vw;
+    max-height: unset;
+  }
 }
 
 @media only screen and (max-height: 480px) {
-	.card {
-		flex-direction: row-reverse;
-	}
-	.card img.birthday {
-		width: 100%;
-		max-width: 50vw;
-		max-height: unset;
-	}
+  .card {
+    flex-direction: row-reverse;
+  }
+  .card img.birthday {
+    width: 100%;
+    max-width: 50vw;
+    max-height: unset;
+  }
 }
 
 img.birthday {
-	max-height: 40vh;
+  max-height: 40vh;
 }
 
 .text {
-	padding: 1em;
+  padding: 1em;
 }
 
 .text .side {
-	text-align: right;
+  text-align: right;
 }
 
 .muted {
-	opacity: 0.8;
+  opacity: 0.8;
 }
 
 .space {
-	height: 100px;
+  height: 100px;
 }
